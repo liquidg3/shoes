@@ -1,0 +1,19 @@
+PODS:
+  - iCarousel (1.7.6)
+  - M13AsynchronousImageView (1.0.1)
+  - MBAlertView (1.1.0)
+  - Socket.IO-Client-Swift (2.2.3)
+
+DEPENDENCIES:
+  - iCarousel (~> 1.7.6)
+  - M13AsynchronousImageView (~> 1.0.0)
+  - MBAlertView (~> 1.1.0)
+  - Socket.IO-Client-Swift (~> 2.2.2)
+
+SPEC CHECKSUMS:
+  iCarousel: ddd7f142c7c2f3429b0ce5fb8ea37f4a059394cd
+  M13AsynchronousImageView: 4c85f5b40359d21c52186e41bc54ea979f992ec1
+  MBAlertView: 685beb07d8eaeb7b9bc7b9099f684943ef545e93
+  Socket.IO-Client-Swift: 0c60746ee15c8bdc1cb01878eb5d60ec97b5a725
+
+COCOAPODS: 0.36.4

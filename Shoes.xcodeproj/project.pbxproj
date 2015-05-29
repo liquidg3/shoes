@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A548F117B2A98ECC7CFCDD8F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A474E8347A698B37827F352B /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CF21821E1AF2F83300CEF2E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF21821D1AF2F83300CEF2E3 /* AppDelegate.swift */; };
+		CF2182211AF2F83300CEF2E3 /* Shoes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF21821F1AF2F83300CEF2E3 /* Shoes.xcdatamodeld */; };
+		CF2182231AF2F83300CEF2E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2182221AF2F83300CEF2E3 /* ViewController.swift */; };
+		CF2182261AF2F83300CEF2E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2182241AF2F83300CEF2E3 /* Main.storyboard */; };
+		CF2182281AF2F83300CEF2E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2182271AF2F83300CEF2E3 /* Images.xcassets */; };
+		CF21822B1AF2F83300CEF2E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2182291AF2F83300CEF2E3 /* LaunchScreen.xib */; };
+		CF2182371AF2F83300CEF2E3 /* ShoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2182361AF2F83300CEF2E3 /* ShoesTests.swift */; };
+		CF8845DE1AF41D2A001E60BB /* hellogoodbye.otf in Resources */ = {isa = PBXBuildFile; fileRef = CF8845DD1AF41D2A001E60BB /* hellogoodbye.otf */; };
+		CF8845E21AF41DF2001E60BB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8845E11AF41DF2001E60BB /* DetailViewController.swift */; };
+		CF8845E51AF43A9F001E60BB /* SplendidB.otf in Resources */ = {isa = PBXBuildFile; fileRef = CF8845E41AF43A9F001E60BB /* SplendidB.otf */; };
+		CF8845E81AF4547C001E60BB /* UIView+Position.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8845E71AF4547C001E60BB /* UIView+Position.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF2182311AF2F83300CEF2E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF2182101AF2F83300CEF2E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF2182171AF2F83300CEF2E3;
+			remoteInfo = Shoes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F5851E70B2E1DA9334C4E4A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9C18DF13714858499BA5B495 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A474E8347A698B37827F352B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2182181AF2F83300CEF2E3 /* Shoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF21821C1AF2F83300CEF2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF21821D1AF2F83300CEF2E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF2182201AF2F83300CEF2E3 /* Shoes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shoes.xcdatamodel; sourceTree = "<group>"; };
+		CF2182221AF2F83300CEF2E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF2182251AF2F83300CEF2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF2182271AF2F83300CEF2E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF21822A1AF2F83300CEF2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CF2182301AF2F83300CEF2E3 /* ShoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2182351AF2F83300CEF2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2182361AF2F83300CEF2E3 /* ShoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesTests.swift; sourceTree = "<group>"; };
+		CF7E8AB11AF3E63300EAD745 /* Shoes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shoes-Bridging-Header.h"; sourceTree = "<group>"; };
+		CF8845DD1AF41D2A001E60BB /* hellogoodbye.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hellogoodbye.otf; sourceTree = "<group>"; };
+		CF8845E11AF41DF2001E60BB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CF8845E41AF43A9F001E60BB /* SplendidB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SplendidB.otf; sourceTree = "<group>"; };
+		CF8845E61AF4547C001E60BB /* UIView+Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Position.h"; sourceTree = "<group>"; };
+		CF8845E71AF4547C001E60BB /* UIView+Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Position.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF2182151AF2F83300CEF2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A548F117B2A98ECC7CFCDD8F /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF21822D1AF2F83300CEF2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		451EAF227C5BA898511056A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C18DF13714858499BA5B495 /* Pods.debug.xcconfig */,
+				5F5851E70B2E1DA9334C4E4A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B74B3EFFBCFDA75DAC42759 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A474E8347A698B37827F352B /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF21820F1AF2F83300CEF2E3 = {
+			isa = PBXGroup;
+			children = (
+				CF21821A1AF2F83300CEF2E3 /* Shoes */,
+				CF2182331AF2F83300CEF2E3 /* ShoesTests */,
+				CF2182191AF2F83300CEF2E3 /* Products */,
+				451EAF227C5BA898511056A9 /* Pods */,
+				8B74B3EFFBCFDA75DAC42759 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF2182191AF2F83300CEF2E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF2182181AF2F83300CEF2E3 /* Shoes.app */,
+				CF2182301AF2F83300CEF2E3 /* ShoesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF21821A1AF2F83300CEF2E3 /* Shoes */ = {
+			isa = PBXGroup;
+			children = (
+				CF8845E61AF4547C001E60BB /* UIView+Position.h */,
+				CF8845E71AF4547C001E60BB /* UIView+Position.m */,
+				CF8845E41AF43A9F001E60BB /* SplendidB.otf */,
+				CF8845DD1AF41D2A001E60BB /* hellogoodbye.otf */,
+				CF21821D1AF2F83300CEF2E3 /* AppDelegate.swift */,
+				CF2182221AF2F83300CEF2E3 /* ViewController.swift */,
+				CF2182241AF2F83300CEF2E3 /* Main.storyboard */,
+				CF2182271AF2F83300CEF2E3 /* Images.xcassets */,
+				CF2182291AF2F83300CEF2E3 /* LaunchScreen.xib */,
+				CF21821F1AF2F83300CEF2E3 /* Shoes.xcdatamodeld */,
+				CF21821B1AF2F83300CEF2E3 /* Supporting Files */,
+				CF7E8AB11AF3E63300EAD745 /* Shoes-Bridging-Header.h */,
+				CF8845E11AF41DF2001E60BB /* DetailViewController.swift */,
+			);
+			path = Shoes;
+			sourceTree = "<group>";
+		};
+		CF21821B1AF2F83300CEF2E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF21821C1AF2F83300CEF2E3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF2182331AF2F83300CEF2E3 /* ShoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF2182361AF2F83300CEF2E3 /* ShoesTests.swift */,
+				CF2182341AF2F83300CEF2E3 /* Supporting Files */,
+			);
+			path = ShoesTests;
+			sourceTree = "<group>";
+		};
+		CF2182341AF2F83300CEF2E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF2182351AF2F83300CEF2E3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF2182171AF2F83300CEF2E3 /* Shoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF21823A1AF2F83300CEF2E3 /* Build configuration list for PBXNativeTarget "Shoes" */;
+			buildPhases = (
+				00F335115C5D111710B89E57 /* Check Pods Manifest.lock */,
+				CF2182141AF2F83300CEF2E3 /* Sources */,
+				CF2182151AF2F83300CEF2E3 /* Frameworks */,
+				CF2182161AF2F83300CEF2E3 /* Resources */,
+				2AB5EDCF1085DE2D445A6DDD /* Copy Pods Resources */,
+				D7F73451AA0BBD9FF4AE60BE /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shoes;
+			productName = Shoes;
+			productReference = CF2182181AF2F83300CEF2E3 /* Shoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF21822F1AF2F83300CEF2E3 /* ShoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF21823D1AF2F83300CEF2E3 /* Build configuration list for PBXNativeTarget "ShoesTests" */;
+			buildPhases = (
+				CF21822C1AF2F83300CEF2E3 /* Sources */,
+				CF21822D1AF2F83300CEF2E3 /* Frameworks */,
+				CF21822E1AF2F83300CEF2E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2182321AF2F83300CEF2E3 /* PBXTargetDependency */,
+			);
+			name = ShoesTests;
+			productName = ShoesTests;
+			productReference = CF2182301AF2F83300CEF2E3 /* ShoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF2182101AF2F83300CEF2E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Spruce;
+				TargetAttributes = {
+					CF2182171AF2F83300CEF2E3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5J95EDSG7R;
+					};
+					CF21822F1AF2F83300CEF2E3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = CF2182171AF2F83300CEF2E3;
+					};
+				};
+			};
+			buildConfigurationList = CF2182131AF2F83300CEF2E3 /* Build configuration list for PBXProject "Shoes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF21820F1AF2F83300CEF2E3;
+			productRefGroup = CF2182191AF2F83300CEF2E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF2182171AF2F83300CEF2E3 /* Shoes */,
+				CF21822F1AF2F83300CEF2E3 /* ShoesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF2182161AF2F83300CEF2E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8845DE1AF41D2A001E60BB /* hellogoodbye.otf in Resources */,
+				CF2182261AF2F83300CEF2E3 /* Main.storyboard in Resources */,
+				CF21822B1AF2F83300CEF2E3 /* LaunchScreen.xib in Resources */,
+				CF8845E51AF43A9F001E60BB /* SplendidB.otf in Resources */,
+				CF2182281AF2F83300CEF2E3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF21822E1AF2F83300CEF2E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00F335115C5D111710B89E57 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2AB5EDCF1085DE2D445A6DDD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7F73451AA0BBD9FF4AE60BE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF2182141AF2F83300CEF2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2182231AF2F83300CEF2E3 /* ViewController.swift in Sources */,
+				CF2182211AF2F83300CEF2E3 /* Shoes.xcdatamodeld in Sources */,
+				CF21821E1AF2F83300CEF2E3 /* AppDelegate.swift in Sources */,
+				CF8845E81AF4547C001E60BB /* UIView+Position.m in Sources */,
+				CF8845E21AF41DF2001E60BB /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF21822C1AF2F83300CEF2E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2182371AF2F83300CEF2E3 /* ShoesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF2182321AF2F83300CEF2E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF2182171AF2F83300CEF2E3 /* Shoes */;
+			targetProxy = CF2182311AF2F83300CEF2E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF2182241AF2F83300CEF2E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2182251AF2F83300CEF2E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF2182291AF2F83300CEF2E3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF21822A1AF2F83300CEF2E3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF2182381AF2F83300CEF2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF2182391AF2F83300CEF2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF21823B1AF2F83300CEF2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C18DF13714858499BA5B495 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Shoes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shoes/Shoes-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CF21823C1AF2F83300CEF2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F5851E70B2E1DA9334C4E4A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Shoes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shoes/Shoes-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		CF21823E1AF2F83300CEF2E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShoesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoes.app/Shoes";
+			};
+			name = Debug;
+		};
+		CF21823F1AF2F83300CEF2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShoesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shoes.app/Shoes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF2182131AF2F83300CEF2E3 /* Build configuration list for PBXProject "Shoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2182381AF2F83300CEF2E3 /* Debug */,
+				CF2182391AF2F83300CEF2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF21823A1AF2F83300CEF2E3 /* Build configuration list for PBXNativeTarget "Shoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF21823B1AF2F83300CEF2E3 /* Debug */,
+				CF21823C1AF2F83300CEF2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF21823D1AF2F83300CEF2E3 /* Build configuration list for PBXNativeTarget "ShoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF21823E1AF2F83300CEF2E3 /* Debug */,
+				CF21823F1AF2F83300CEF2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF21821F1AF2F83300CEF2E3 /* Shoes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF2182201AF2F83300CEF2E3 /* Shoes.xcdatamodel */,
+			);
+			currentVersion = CF2182201AF2F83300CEF2E3 /* Shoes.xcdatamodel */;
+			path = Shoes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF2182101AF2F83300CEF2E3 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module M13AsynchronousImageView {
+  umbrella header "Pods-M13AsynchronousImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

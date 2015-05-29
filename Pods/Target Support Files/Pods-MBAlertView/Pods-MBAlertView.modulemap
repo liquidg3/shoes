@@ -1,0 +1,6 @@
+framework module MBAlertView {
+  umbrella header "Pods-MBAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}
